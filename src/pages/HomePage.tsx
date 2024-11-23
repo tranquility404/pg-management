@@ -11,56 +11,56 @@ const mockPGs = [
   { id: 4, name: 'City View PG', location: 'Chennai', price: 8500 },
 ]
 
-const popularPGs = [
-  {
-    name: "Sunshine PG",
-    image: "/placeholder.svg",
-    price: "₹8,000/month",
-    rating: 4.8,
-    reviews: 128,
-    location: "Koramangala, Bangalore"
-  },
-  {
-    name: "Green View PG",
-    image: "/placeholder.svg",
-    price: "₹7,500/month",
-    rating: 4.6,
-    reviews: 95,
-    location: "HSR Layout, Bangalore"
-  },
-  {
-    name: "City Comfort PG",
-    image: "/placeholder.svg",
-    price: "₹9,000/month",
-    rating: 4.9,
-    reviews: 156,
-    location: "Indira Nagar, Bangalore"
-  },
-  {
-    name: "Student Haven",
-    image: "/placeholder.svg",
-    price: "₹6,500/month",
-    rating: 4.7,
-    reviews: 112,
-    location: "BTM Layout, Bangalore"
-  },
-  {
-    name: "Metro PG",
-    image: "/placeholder.svg",
-    price: "₹8,500/month",
-    rating: 4.5,
-    reviews: 89,
-    location: "JP Nagar, Bangalore"
-  },
-  {
-    name: "Comfort Zone PG",
-    image: "/placeholder.svg",
-    price: "₹7,000/month",
-    rating: 4.7,
-    reviews: 134,
-    location: "Electronic City, Bangalore"
-  }
-]
+// const popularPGs = [
+//   {
+//     name: "Sunshine PG",
+//     image: "/placeholder.svg",
+//     price: "₹8,000/month",
+//     rating: 4.8,
+//     reviews: 128,
+//     location: "Koramangala, Bangalore"
+//   },
+//   {
+//     name: "Green View PG",
+//     image: "/placeholder.svg",
+//     price: "₹7,500/month",
+//     rating: 4.6,
+//     reviews: 95,
+//     location: "HSR Layout, Bangalore"
+//   },
+//   {
+//     name: "City Comfort PG",
+//     image: "/placeholder.svg",
+//     price: "₹9,000/month",
+//     rating: 4.9,
+//     reviews: 156,
+//     location: "Indira Nagar, Bangalore"
+//   },
+//   {
+//     name: "Student Haven",
+//     image: "/placeholder.svg",
+//     price: "₹6,500/month",
+//     rating: 4.7,
+//     reviews: 112,
+//     location: "BTM Layout, Bangalore"
+//   },
+//   {
+//     name: "Metro PG",
+//     image: "/placeholder.svg",
+//     price: "₹8,500/month",
+//     rating: 4.5,
+//     reviews: 89,
+//     location: "JP Nagar, Bangalore"
+//   },
+//   {
+//     name: "Comfort Zone PG",
+//     image: "/placeholder.svg",
+//     price: "₹7,000/month",
+//     rating: 4.7,
+//     reviews: 134,
+//     location: "Electronic City, Bangalore"
+//   }
+// ]
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('')

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Header from './components/Header';
-import Footer from './components/Footer';
+// import Header from './components/Header';
+// import Footer from './components/Footer';
 import LandingPage from './pages/LandingPage';
 import HomePage from './pages/HomePage';
 import RegistrationPage from './pages/RegistrationPage';
