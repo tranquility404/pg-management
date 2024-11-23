@@ -54,7 +54,7 @@ export default function LandingPage() {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <Link className="text-sm font-medium hover:text-primary transition-colors" to="#">
+              <Link className="text-sm font-medium hover:text-primary transition-colors" to="/home">
                 Home
               </Link>
               <Link className="text-sm font-medium hover:text-primary transition-colors" to="#">
